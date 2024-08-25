@@ -51,7 +51,7 @@ body{
 }
 
 .divider{
-    background-image: url(/images/pattern-divider-mobile.svg);
+    background-image: url(./images/pattern-divider-mobile.svg);
     background-position: center;
     background-repeat: no-repeat;
     height: 20px;
