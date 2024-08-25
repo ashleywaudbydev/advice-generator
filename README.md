@@ -30,7 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](d:\Screenshot_25-8-2024_135420_127.0.0.1.jpeg)
+![Screenshot_25-8-2024_135420_127 0 0 1](https://github.com/user-attachments/assets/190b5448-f648-4add-9b67-8485226d9c15)
+
 
 ### Links
 
