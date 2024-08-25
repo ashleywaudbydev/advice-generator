@@ -1,0 +1,122 @@
+/*-----COLOR VARIABLES-----*/
+:root{
+--Light-Cyan: hsl(193, 38%, 86%);
+--Neon-Green: hsl(150, 100%, 66%);
+--Grayish-Blue: hsl(217, 19%, 38%);
+--Dark-Grayish-Blue: hsl(217, 19%, 24%);
+--Dark-Blue: hsl(218, 23%, 16%);
+}
+
+/*-----GLOBAL STYLES-----*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 100vh;
+    background-color: var(--Dark-Blue);
+}
+.container{
+    background-color: var(--Dark-Grayish-Blue);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    
+}
+
+
+.advice-id{
+    color: var(--Neon-Green);
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+    font-size: 14px;
+}
+.random-advice{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.divider{
+    background-image: url(/images/pattern-divider-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20px;
+}
+.button{
+    background-color: var(--Neon-Green);
+    border-radius: 50%;
+    width: 20%;
+    max-width: 100px;
+    padding: 1rem;
+    align-self: center;
+}
+.button-container{
+    background-color: var(--Neon-Green);
+    padding: 2.5rem;
+    align-self: center;
+    position: relative;
+    top: 60px;
+    background-image: url(/images/icon-dice.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    border-radius: 50%;
+    transition: all 1 ease ease-in-out;
+}
+
+.button-container:hover{
+    box-shadow: 0 0 30px var(--Neon-Green);
+    cursor: pointer;
+
+}
+
+/*-----MEDIA QUERY FOR DESKTOP DESIGN-----*/
+@media(min-width: 900px){
+    .divider{
+        background-image: url(/images/pattern-divider-desktop.svg);
+     
+    }
+}
+
+/*-----FOOTER STYLES-----*/
+.attribution{ 
+    font-size: 14px; 
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.attribution a{ 
+    color: var(--Neon-Green);
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+.attribution p{
+    display: flex;
+    gap: 0.5rem;
+    color: white;
+   
+}
+.copy-right{
+   margin-left: 25%;
+}
+
+
+
+
