@@ -51,7 +51,7 @@ body{
 }
 
 .divider{
-    background-image: url(/images/pattern-divider-mobile.svg);
+    background-image: url(./images/pattern-divider-mobile.svg);
     background-position: center;
     background-repeat: no-repeat;
     height: 20px;
@@ -70,7 +70,7 @@ body{
     align-self: center;
     position: relative;
     top: 60px;
-    background-image: url(/images/icon-dice.svg);
+    background-image: url(./images/icon-dice.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 2rem;
@@ -87,7 +87,7 @@ body{
 /*-----MEDIA QUERY FOR DESKTOP DESIGN-----*/
 @media(min-width: 900px){
     .divider{
-        background-image: url(/images/pattern-divider-desktop.svg);
+        background-image: url(./images/pattern-divider-desktop.svg);
      
     }
 }
