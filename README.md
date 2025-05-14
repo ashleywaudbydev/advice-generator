@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/advice-generator-using-an-api-p-4CtixuzO]
-- Live Site URL: [https://00awaudby.github.io/advice-generator/]
+- Live Site URL: [https://ashleywaudbydev.github.io/advice-generator/]
 
 ## My process
 
